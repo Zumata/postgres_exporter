@@ -13,7 +13,6 @@ import (
 
 type postgresExporter struct {
 	*exporttools.BaseExporter
-	name    string
 	connURL string
 	dbName  string
 	db      *sql.DB
